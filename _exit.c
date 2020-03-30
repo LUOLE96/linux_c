@@ -25,8 +25,8 @@ int main(void)
         atexit(exit_fun);
         printf("sub : open or malloc\n");
 
-        //exit(0);
-        _exit(0);
+        exit(0);
+        //_exit(0);
     }
 
 

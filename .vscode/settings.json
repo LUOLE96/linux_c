@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "EOF_\\0.C": "cpp",
+        "iostream": "cpp",
+        "cerrno": "c",
+        "initializer_list": "c",
+        "signal.h": "c",
+        "select.h": "c",
+        "stdlib.h": "c",
+        "string.h": "c"
+    }
+}

@@ -13,15 +13,15 @@ int main(void)
         exit(1);
     }
 
-    //char buf[128] = "";
-    char *buf = malloc(128);
+    char buf[128] = "";
+    //char *buf = malloc(128);
     fgets(buf,sizeof(buf),fp);
     buf[strlen(buf) - 1] = 0; //去除尾部换行
     printf("buf = %s\n",buf);
 
     fclose(fp);
-    free(buf);
-    buf = NULL;
+    //free(buf);
+    //buf = NULL;
 
     exit(0);
 }
