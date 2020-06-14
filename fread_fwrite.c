@@ -31,13 +31,12 @@ int main(int argc,char **argv)
     }
 
     int n;
-    while(n = fread(buf,1,BUFSIZE,fps) > 0)
+    while((n = fread(buf,1,BUFSIZE,fps)) > 0)
     {
         printf("test\n");
         fwrite(buf,1,n,fpd);
     }
         
-
     fclose(fpd);
     fclose(fps);
 
